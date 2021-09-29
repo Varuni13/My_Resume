@@ -1,0 +1,35 @@
+*{
+	text-align: center;
+}
+body{
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+    }
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+
+h1{
+    margin-top: 15%;
+}
+
+p,h2{
+   color: #0000EE; 
+}
+
+
+footer{
+	clear: both;
+    margin-top: 20%;
+	
+}

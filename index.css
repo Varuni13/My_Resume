@@ -1,0 +1,58 @@
+*{
+	text-align: center;
+}
+
+body{
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+    }
+
+h1,p  {
+	color: black;
+	border: 5px solid purple 
+	cursor: pointer;
+    font-size: 300%;
+}
+
+/*nav{
+    text-align: center;
+}*/
+
+h2{
+    font-size: 15px;
+    color: black;
+}
+
+footer{
+	clear: both;
+	
+}
+
+p{
+   /* display:flex;*/
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold;
+    font-size: 100%;
+	font-family: 'Indie Flower', cursive;
+    color: #0000EE; 
+   
+}
+
+a{
+	list-style: none;
+	display: inline-block;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+ 
+img {
+    width: 200px;
+    border-radius: 50%;
+}
