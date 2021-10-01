@@ -49,8 +49,9 @@ img {
 	color: #ffffff;
     }
 
-a:hover {
+a {
     font-weight: bold;
+	color:blue;
 }
 
 .right
